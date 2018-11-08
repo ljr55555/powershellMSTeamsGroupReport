@@ -1,6 +1,6 @@
 $strReportFile = ".\TeamsGroupReport.csv"
-$strCredentialUIDFile = "..\win-uid.txt"
-$strCredentialPwdFile = "..\win-pass.txt"
+$strCredentialUIDFile = ".\uid.txt"
+$strCredentialPwdFile = ".\pass.txt"
 
 $strCredentialUID= get-content -path $strCredentialUIDFile 
 $strPassword = get-content -path $strCredentialPwdFile | convertto-securestring
